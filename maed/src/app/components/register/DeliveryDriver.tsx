@@ -24,7 +24,7 @@ const DeliveryDriver = () => {
   };
 
   return (
-    <div className="mt-6 my-2 overflow-y-auto max-h-[85vh]">
+    <div className="mt-6 my-2 ">
       <form
         onSubmit={handleSubmit(onSubmit)}
         className="flex flex-col gap-4"
